@@ -1,0 +1,87 @@
+@font-face {
+    font-family:"josefa";
+    src: url(assets/JosefaRoundedReduced-Light.otf); 
+}
+
+
+
+body {
+background-image: url("assets/new\ background.png");
+background-size:cover;
+}
+
+.title{
+     /* title container*/
+     display:flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+    
+    
+  
+}
+   
+.middle{
+    display:flex;
+    flex-direction:row;
+    gap: 323px;
+   
+    
+}
+.video{
+ /*video container*/
+ width: 646px;
+ height: 391px;
+ border-radius: 50px;
+ background: #FFF7EE;
+
+}
+
+.picture{
+/*the poloroid frame container*/
+width: 250px;
+aspect-ratio: 35/113;
+display:flex;
+transform: translateY(-200px);
+
+}
+
+.video-column{
+display: flex;
+flex-direction:column;
+margin-left: 200px;
+align-items: center;
+}
+
+
+.frame-column{
+    display: flex;
+   
+   
+
+}
+.capture{
+/*The css for the capture button*/
+ width: 320px;
+ height: 56px;
+ border-radius: 50px;
+ background-color:#FFF7EE;
+ margin-top: 67px;
+
+/* The css for the text */
+color: #000;
+font-family: "josefa";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.download{
+ width: 320px;
+ height: 56px;
+ border-radius: 50px;
+ background-color:#FFF7EE;
+
+}
