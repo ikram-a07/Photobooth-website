@@ -16,9 +16,16 @@ background-size:cover;
      flex-direction: column;
      justify-content: flex-start;
      align-items: center;
+     transform: translate(35px,0px);
+}
+
+.title h1{
+    position: absolute;
+    text-align: center;
+    width: 117px;
+    height:116px;
+    transform: translate(0px,40px);
     
-    
-  
 }
    
 .middle{
@@ -57,9 +64,9 @@ align-items: center;
 .frame-column{
     display: flex;
    
-   
 
 }
+
 .capture{
 /*The css for the capture button*/
  width: 320px;
@@ -78,10 +85,56 @@ line-height: normal;
 
 }
 
-.download{
- width: 320px;
- height: 56px;
- border-radius: 50px;
- background-color:#FFF7EE;
+.capture img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    transform: translate(0px,6.3px);
+}
 
+.download{
+/* The css for the download button */
+width: 320px;
+height: 56px;
+border-radius: 50px;
+background-color:#FFF7EE;
+transform:  translate(-180px,500px);
+
+ /*The css for the text */
+color: #000;
+font-family: "josefa";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.rewind{
+    /*This controls the shape of the button*/
+    width: 76px;
+    height:71px;
+    border-radius: 50%;
+    background-color:#FFF7EE;
+    /*This controls where the button sits*/
+    transform: translate(-600px, 0px);
+}
+
+.rewind img{
+    width: 45px;
+    height: 54px;
+    object-fit: contain;
+}
+
+@media (max-width: 1000px) {
+    .video {
+        width: 55vw;
+        height: auto;
+        aspect-ratio: 646 / 391;
+    }
+
+    .picture {
+        width: 14vw;
+        height: auto;
+    }
 }
